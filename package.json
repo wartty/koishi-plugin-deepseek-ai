@@ -1,0 +1,28 @@
+{
+  "name": "koishi-plugin-deepseek-ai",
+  "description": "一个可以使用deepseek-ai的插件",
+  "version": "0.1.0",
+  "contributors": [                         // 贡献者
+  "wartty <wartty@petalmail.com>"
+],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/wartty/koishi-plugin-deepseek-ai.git"
+},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "ai",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "4.18.7"
+  }
+}
