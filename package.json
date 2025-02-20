@@ -1,8 +1,9 @@
+
 {
   "name": "koishi-plugin-deepseek-ai",
-  "description": "一个可以使用deepseek-ai的插件",
-  "version": "0.1.0",
-  "contributors": [                         // 贡献者
+  "description": "一个可以使用deepseek-ai的插件，支持预设",
+  "version": "0.2.0",
+  "contributors": [                         
   "wartty <wartty@petalmail.com>"
 ],
   "main": "lib/index.js",
@@ -19,8 +20,11 @@
   "keywords": [
     "chatbot",
     "koishi",
+    "plugin",
     "ai",
-    "plugin"
+    "deepseek",
+    "chat",
+    "深度求索"
   ],
   "peerDependencies": {
     "koishi": "4.18.7"
