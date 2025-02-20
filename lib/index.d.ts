@@ -11,6 +11,12 @@ export interface Config {
     timeout: number;
     waitingMessage: string;
     requestLimit: number;
+    maxHistory: number;
+    apiErrorText: string;
+    creativity: number;
+    openness: number;
+    divergence: number;
+    vocabulary: number;
 }
 interface Preset {
     name: string;
@@ -32,6 +38,12 @@ export declare const Config: Schema<Schemastery.ObjectS<{
     timeout: Schema<number, number>;
     waitingMessage: Schema<string, string>;
     requestLimit: Schema<number, number>;
+    maxHistory: Schema<number, number>;
+    apiErrorText: Schema<string, string>;
+    creativity: Schema<number, number>;
+    openness: Schema<number, number>;
+    divergence: Schema<number, number>;
+    vocabulary: Schema<number, number>;
 }>, Schemastery.ObjectT<{
     apiKey: Schema<string, string>;
     apiEndpoint: Schema<string, string>;
@@ -48,6 +60,12 @@ export declare const Config: Schema<Schemastery.ObjectS<{
     timeout: Schema<number, number>;
     waitingMessage: Schema<string, string>;
     requestLimit: Schema<number, number>;
+    maxHistory: Schema<number, number>;
+    apiErrorText: Schema<string, string>;
+    creativity: Schema<number, number>;
+    openness: Schema<number, number>;
+    divergence: Schema<number, number>;
+    vocabulary: Schema<number, number>;
 }>>;
 export declare function apply(ctx: Context, config: Config): void;
 export {};
